@@ -15,7 +15,7 @@ render(){
         <div>
             <NavBar/>
             <div>
-            <h2 className='text-center fw-normal p-2 mt-4'>Votre Commande:</h2>
+            <h2 className='text-center fw-normal p-2 mt-4'>Listes de favouries:</h2>
             <div className='Products'>
                 <Products FavPage={true}/>
                 <Products FavPage={true}/>
