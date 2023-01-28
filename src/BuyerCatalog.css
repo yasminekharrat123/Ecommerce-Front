@@ -1,7 +1,27 @@
+.container {
+  margin-top: 30px;
+}
 
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  margin-top: 10px;
+}
 
+.bg-color1 {
+  background-color: #f7f1ed;
+}
 
+.card1 {
+  margin-top: 20px;
 
-
-
-
+  background-color: transparent;
+}
+.card2 {
+  margin-bottom: 20px;
+  background-color: transparent;
+}
