@@ -8,7 +8,7 @@ function BuyerCatalog() {
 
       <div className="container ">
         <div className="row">
-          <div className="col-md-3">
+          <div className="col-md-3 ">
             <Product
               title="Product 1"
               image="https://img.freepik.com/free-photo/pink-sky-background-with-crescent-moon_53876-129048.jpg"

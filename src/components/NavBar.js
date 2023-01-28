@@ -1,16 +1,17 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import {Link} from "react-router-dom"
 
 export default function NavBar() {
   return (
     <nav className="navbar navbar-expand-lg bg-light">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
+        <Link to={"/Buyer"}>
           <img
             src="shttps://w7.pngwing.com/pngs/17/58/png-transparent-web-development-responsive-web-design-e-commerce-business-ecommerce-blue-angle-web-design.png"
             alt="Logo"
           />
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"

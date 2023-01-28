@@ -13,7 +13,7 @@ import BuyerCatalog from "./pages/BuyerCatalog";
 const router = createBrowserRouter([
   {
     path: "/Buyer",
-    element: <Buyer />,
+    element: <Buyer/>,
   },
   {
     path: "/",
