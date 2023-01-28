@@ -9,6 +9,8 @@ import Login from "./pages/Login";
 import Buyer from "./pages/Buyer";
 import Seller from "./pages/Seller";
 import BuyerCatalog from "./pages/BuyerCatalog";
+import { Cart } from "./components/Cart";
+import Favourites from "./components/Favourites";
 
 const router = createBrowserRouter([
   {
@@ -26,6 +28,20 @@ const router = createBrowserRouter([
   {
     path: "/BuyerCatalog",
     element: <BuyerCatalog />,
+  },
+  {
+    path: "/Cart",
+    element:<Cart/>
+    
+  },
+  {
+    path: "/Fav",
+    element:<Favourites/>
+    
+  },
+  {
+    path: "/Profil",
+    
   },
 ]);
 
