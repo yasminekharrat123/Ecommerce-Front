@@ -47,8 +47,8 @@ export default function Signup({CurrentForm,setCurrentForm})
             <input  required value={pass} type="password" id="passwd" placeholder="Mot de passe..." className="form__field" onChange={
                 (e)=> setPass(e.target.value)
             }/>
-            <fieldset>
-            <legend> S'inscrire comme: </legend>
+            <div className="options" >
+            <span id="Ras"> S'inscrire comme: </span><br/>
             <input className="option" type="radio" id="Client" name="agent" value="Client" checked={agent==="Client"} onChange={
                 ()=> 
                 {
@@ -63,7 +63,7 @@ export default function Signup({CurrentForm,setCurrentForm})
                 }
             } />
             <label className="option" htmlFor="Commercant"> Commercant </label><br/>
-            </fieldset>
+            </div>
             <div> {resolveAgent()}</div>
             <button className="form__buttons" type="submit"> S'inscrire </button>
             <span>Vous avez déja un compte? <a className="hyperlink" onClick={

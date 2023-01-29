@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./style.css"
 
 
-export default function Login({CurrentForm,setCurrentForm})
+export default function Log({CurrentForm,setCurrentForm})
 {
     function handleSubmit(e)
     {
