@@ -26,10 +26,11 @@ export default function Login({CurrentForm,setCurrentForm})
             }/> 
         {/* </div> */}
         <button className="form__buttons" type="submit" > Se connecter </button>
-        </form>  
         <span>Nouveau sur ce site? <a className="hyperlink" onClick={
             ()=> setCurrentForm("Signup")
         }> S'inscrire</a></span> 
+        </form>  
+
         </div>
     )
 }

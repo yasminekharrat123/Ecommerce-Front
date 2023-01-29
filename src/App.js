@@ -1,10 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import LogReg from './Pages/LogReg';
+import Login from './Pages/Login';
 
 function App() {
   return (
-      <LogReg/>
+      <Login/>
   );
 }
 

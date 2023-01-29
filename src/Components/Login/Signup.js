@@ -17,7 +17,7 @@ export default function Signup({CurrentForm,setCurrentForm})
     function resolveAgent()
     {
         if(agent==="Commercant") return(
-            <div> 
+            <div className="added"> 
                 <label htmlFor="Nom de Service" className="form__label">Nom de Service: </label> <br/>
                 <input required value={Service} type="text" id="Nom de Service" placeholder="Nom de Service..." className="form__field" onChange={
                 (e)=> setService(e.target.value)
@@ -49,27 +49,28 @@ export default function Signup({CurrentForm,setCurrentForm})
             }/>
             <fieldset>
             <legend> S'inscrire comme: </legend>
-            <input type="radio" id="Client" name="agent" value="Client" checked={agent==="Client"} onChange={
+            <input className="option" type="radio" id="Client" name="agent" value="Client" checked={agent==="Client"} onChange={
                 ()=> 
                 {
                     setAgent("Client");
                 }
             } />
-            <label htmlFor="Client"> Client </label><br/>
-            <input type="radio" id="Commercant" name="agent" value="Commercant" checked={agent==="Commercant"} onChange={
+            <label className="option" htmlFor="Client"> Client </label><br/>
+            <input className="option" type="radio" id="Commercant" name="agent" value="Commercant" checked={agent==="Commercant"} onChange={
                 ()=> 
                 {
                     setAgent("Commercant");
                 }
             } />
-            <label htmlFor="Commercant"> Commercant </label><br/>
+            <label className="option" htmlFor="Commercant"> Commercant </label><br/>
             </fieldset>
             <div> {resolveAgent()}</div>
             <button className="form__buttons" type="submit"> S'inscrire </button>
-            </form>  
             <span>Vous avez déja un compte? <a className="hyperlink" onClick={
             ()=> setCurrentForm("Login")
         }> Se Connecter</a></span> 
+            </form>  
+
         </div>
     );
 }
