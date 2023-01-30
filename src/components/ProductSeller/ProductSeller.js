@@ -1,4 +1,5 @@
 import React from "react";
+import "../ProductSeller/ProductSeller.css"
 export default function ProductSeller(props){
     return(
         <div ClassName="card">
@@ -7,7 +8,8 @@ export default function ProductSeller(props){
                 <h5 ClassName="card-title">{props.title}</h5>
                 <p ClassName="card-text">{props.description}</p>
                 <div ClassNmae="card-price">{props.price}</div>
-                <button onClick="removeElement()">Remove</button>
+                <button ClassName="modern-button"
+                >Remove</button>
             </div>
 
         </div>

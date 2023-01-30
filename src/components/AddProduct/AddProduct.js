@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import SellerHome from "../SellerHome/SellerHome";
 const ProductForm = () => {
   const [title, setTitle] = useState("");
   const [image, setImage] = useState("");
@@ -19,7 +20,7 @@ const ProductForm = () => {
     <div>
       <form>
         <div>
-          <label for="title">title:</label>
+          <label for="title">Title:</label>
           <input
             type="text"
             id="title"
