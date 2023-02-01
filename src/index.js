@@ -6,28 +6,28 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Login from "./Pages/Login";
-import Buyer from "./Pages/Buyer";
-import Seller from "./Pages/Seller";
-import BuyerCatalog from "./Pages/BuyerCatalog";
+import Login from "./pages/Login";
+import Buyer from "./pages/Buyer";
+import Seller from "./pages/Seller";
+import BuyerCatalog from "./pages/BuyerCatalog";
 
 const router = createBrowserRouter([
-  // {
-  //   path: "/Buyer",
-  //   element: <Buyer />,
-  // },
+  {
+    path: "/Buyer",
+    element: <Buyer />,
+  },
   {
     path: "/",
     element: <Login />,
   },
-  // {
-  //   path: "/Seller",
-  //   element: <Seller />,
-  // },
-  // {
-  //   path: "/BuyerCatalog",
-  //   element: <BuyerCatalog />,
-  // },
+  {
+    path: "/Seller",
+    element: <Seller />,
+  },
+  {
+    path: "/BuyerCatalog",
+    element: <BuyerCatalog />,
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
