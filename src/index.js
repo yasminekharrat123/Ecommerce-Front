@@ -10,6 +10,10 @@ import Login from "./pages/Login";
 import Buyer from "./pages/Buyer";
 import Seller from "./pages/Seller";
 import BuyerCatalog from "./pages/BuyerCatalog";
+import OrdersPage from "./components/OrdersPage/OrdersPage";
+import Cart from "./components/Cart/Cart";
+import AccDec from "./components/AccDec/AccDec";
+import Favourite from "./components/Favourite/Favourite";
 
 const router = createBrowserRouter([
   {
@@ -18,16 +22,29 @@ const router = createBrowserRouter([
   },
   {
     path: "/",
-    element: <Login />,
+    element: <Login/>,
   },
   {
     path: "/Seller",
-    element: <Seller />,
+    element: <OrdersPage />,
   },
   {
     path: "/BuyerCatalog",
     element: <BuyerCatalog />,
   },
+  {
+    path: "/Cart",
+    element: <Cart />,
+  },
+  {
+    path: "/OrdersPage",
+    element: <AccDec />,
+  },
+  {
+    path: "/Favourite",
+    element: <Favourite />,
+  },
+  
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

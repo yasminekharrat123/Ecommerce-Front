@@ -1,0 +1,23 @@
+.Accbttn{
+    margin-right: 4px;
+    border-radius: 20px;
+    width: 80px;
+    height: 28Px;
+    color: #f7f1ed;
+    background-color: rgb(0, 223, 0);
+    font-size: medium;
+    border-style: none;
+}
+
+
+.Refbttn{
+    border-radius: 20px;
+    width: 80px;
+    height: 28Px;
+    color: #f7f1ed;
+    background-color: rgb(223, 0, 0);
+    font-size: medium;
+    border-style: none;
+
+}
+
