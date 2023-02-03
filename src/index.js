@@ -4,7 +4,6 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Login from "./pages/Login";
 import Buyer from "./pages/Buyer";
@@ -15,15 +14,27 @@ import Cart from "./components/Cart/Cart";
 import AccDec from "./components/AccDec/AccDec";
 import Favourite from "./components/Favourite/Favourite";
 
+
 const router = createBrowserRouter([
   {
     path: "/Buyer",
     element: <Buyer />,
   },
+
   {
     path: "/",
     element: <Login/>,
   },
+
+   {
+     path: "/Seller",
+     element: <Seller />,
+   },
+   {
+     path: "/BuyerCatalog",
+     element: <BuyerCatalog />,
+   },
+
   {
     path: "/Seller",
     element: <OrdersPage />,
@@ -32,6 +43,7 @@ const router = createBrowserRouter([
     path: "/BuyerCatalog",
     element: <BuyerCatalog />,
   },
+
   {
     path: "/Cart",
     element: <Cart />,
@@ -45,6 +57,7 @@ const router = createBrowserRouter([
     element: <Favourite />,
   },
   
+
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
