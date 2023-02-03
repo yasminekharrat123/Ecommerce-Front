@@ -1,3 +1,5 @@
+
+
 import { Component } from 'react';
 import Log from '../components/Login_Signup/Log';
 import Signup from '../components/Login_Signup/Signup';
@@ -21,5 +23,6 @@ export default function LogReg()
       <div className='page_container'> <Signup CurrentForm={CurrentForm} setCurrentForm={setCurrentForm}/> </div>
     </div>
   ) 
+
 }
 
