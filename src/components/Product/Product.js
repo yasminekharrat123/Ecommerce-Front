@@ -5,6 +5,7 @@ export default function Product(props) {
     <div className="card">
       <img src={props.image} className="card-img-top" alt="..." />
       <div className="card-body">
+        <h5 className="card-title price">{props.price} TND</h5>
         <h5 className="card-title">{props.title}</h5>
         <p className="card-text">{props.description}</p>
         <span>
