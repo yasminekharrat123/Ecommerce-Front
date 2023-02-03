@@ -14,7 +14,6 @@ import Cart from "./components/Cart/Cart";
 import AccDec from "./components/AccDec/AccDec";
 import Favourite from "./components/Favourite/Favourite";
 
-
 const router = createBrowserRouter([
   {
     path: "/Buyer",
@@ -23,17 +22,13 @@ const router = createBrowserRouter([
 
   {
     path: "/",
-    element: <Login/>,
+    element: <Login />,
   },
 
-   {
-     path: "/Seller",
-     element: <Seller />,
-   },
-   {
-     path: "/BuyerCatalog",
-     element: <BuyerCatalog />,
-   },
+  {
+    path: "/BuyerCatalog",
+    element: <BuyerCatalog />,
+  },
 
   {
     path: "/Seller",
@@ -56,8 +51,6 @@ const router = createBrowserRouter([
     path: "/Favourite",
     element: <Favourite />,
   },
-  
-
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
