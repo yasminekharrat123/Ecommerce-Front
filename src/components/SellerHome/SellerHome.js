@@ -1,7 +1,6 @@
 import React from "react";
 import NavbarSeller from "../NavbarSeller/NavbarSeller";
 import ProductSeller from "../ProductSeller/ProductSeller";
-
 export default function SellerHome({ products }) {
   return (
     <div>
@@ -16,4 +15,5 @@ export default function SellerHome({ products }) {
       </ul>
     </div>
   );
+  
 }

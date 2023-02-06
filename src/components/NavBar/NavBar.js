@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../assets/logo.png";
 import "../NavBar/NavBar.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 export default function NavBar() {
   return (
     <nav className="navbar navbar-expand-lg bg-color2">
