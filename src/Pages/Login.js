@@ -21,4 +21,7 @@ export default function LogReg()
       <div className='page_container'> <Signup CurrentForm={CurrentForm} setCurrentForm={setCurrentForm}/> </div>
     </div>
   ) 
+
 }
+
+
