@@ -1,9 +1,9 @@
 import React, { useState, useRef } from "react";
-import "./Profile.css"
+import "./ProfileSeller.css"
 
 const EditProfile = () => {
   const [name, setName] = useState("Mon Nom");
-  const [description, setDescription] = useState("Bref description");
+  const [service, setService] = useState("Service");
 
   const imageInput = useRef(null);
 
@@ -17,7 +17,7 @@ const EditProfile = () => {
   const handleAddProduct = (event) => {
     event.preventDefault();
     setName("");
-    setDescription("");
+    setService("");
     setImagePreview(null);
     imageInput.current.value = null;
   };
@@ -54,12 +54,12 @@ const EditProfile = () => {
               </li><br/>
               <li class="list-group-item d-flex justify-content-between lh-md custom-width">
                 <div>
-                  <h6 class="my-0" className="profile-description">Description</h6>
-                  <textarea class="text-muted" style={{width:'270%'}} value={description} onChange={(event) => setDescription(event.target.value)}></textarea>
+                  <h6 class="my-0" className="profile-service">Nom De Service</h6>
+                  <input type="text" className="text-muted"  value={service} onChange={(event) => setService(event.target.value)}/>
                 </div>
-              </li><br/><br/><br/>
+              </li><br/>
             </ul>
-            <div style={{position: 'relative', left: '150px',top:'3px'}}>
+            <div style={{position: 'relative',left: '200px',top:'3px'}}>
             <button type="submit" onClick={handleAddProduct}>Save</button></div>
           </form>
         </div>

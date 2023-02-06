@@ -4,11 +4,13 @@ import NavBar from "./components/NavBar/NavBar";
 import Product from "./components/Product/Product";
 import AddProduct from "./components/AddProduct/AddProduct";
 import Footer from "./components/footer/Footer";
+import ProfileSellerEdit from "./components/ProfileSeller/ProfileSellerEdit";
+import ProfileSeller from "./components/ProfileSeller/ProfileSeller";
 
 function App() {
     return (<div>
       <NavBar/>
-      <ProfileEdit/>
+      <AddProduct/>
       <Footer/>
     </div>);
 }

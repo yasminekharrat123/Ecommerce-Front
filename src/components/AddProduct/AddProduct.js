@@ -69,14 +69,14 @@ const ProductForm = () => {
               
                 </div></form>
           </div>
-          <h3>Products List</h3>
+{/*          <h3>Products List</h3>
               <ul>
                 {products.map(p => (
                   <li key={p.title}>
                     <Product product={p} />
                   </li>
                 ))}
-                </ul>
+                </ul>*/}
         </div>
   );
 };

@@ -22,7 +22,7 @@
 
 .product-image{
   display:flex;
-  width: 600px; 
+  width: 700px; 
   height: 400px;
   border-radius: 30px;
   object-fit: cover;
@@ -32,7 +32,7 @@
   position:relative;
   display:flex;
   align-items: center;
-  padding:7%;
+  padding:7% 10% 7% 10%;
   box-shadow: 0px 10px 10px 10px rgba(158, 146, 146, 0.75);
   width:60%;
   flex-direction: column;
@@ -45,6 +45,7 @@
   button[type="submit"] {
     width: 100%;
     padding: 10px;
+    justify-content: center;
     background-color: #ae2012;
     color: whitesmoke;
     font-size: 18px;
