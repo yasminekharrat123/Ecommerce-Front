@@ -1,7 +1,8 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import "../Product/Product.css";
 export default function Product(props) {
+
+
   const remove = () => {
     const element = document.getElementById("remove");
     element.classList.add("delete");

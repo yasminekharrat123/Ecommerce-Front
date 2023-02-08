@@ -1,0 +1,25 @@
+.Accbttn1{
+    margin:5px;
+    border-radius: 2px;
+    border-style: none;
+    background-color: rgb(0, 206, 0);
+    color:aliceblue;
+    width: 28px;
+
+}
+
+.Refbttn1{
+    margin:5px;
+    border-radius: 2px;
+    border-style: none;
+    background-color: rgb(206, 0, 0);
+    color:aliceblue;
+    width: 28px;
+}
+
+.quantitybttn{
+    margin:2px;
+    width: 50px;
+    border-radius: 5px;
+    border-style: groove;
+}

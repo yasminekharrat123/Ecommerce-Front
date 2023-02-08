@@ -68,12 +68,6 @@ return(
                                     )
 
                                 }
-                                <tr>
-                                <th colSpan={5} className="text-center">Total:</th>
-                                <td>
-                                    <span className="badge bg-danger rounded-pill">9999$</span>
-                                </td>
-                                </tr>
                             </tbody>
                         </table>
                     </div>
