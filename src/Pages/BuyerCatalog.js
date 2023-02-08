@@ -2,7 +2,6 @@ import "../BuyerCatalog.css";
 import Footer from "../components/footer/Footer";
 import NavBar from "../components/NavBar/NavBar";
 import Product from "../components/Product/Product";
-import ProductRemove from "../components/Product/ProductRemove";
 
 function BuyerCatalog() {
   return (
@@ -18,7 +17,7 @@ function BuyerCatalog() {
         <div className="container bg-light rounded  ">
           <div className="row ">
             <div className="col-md-3 card1">
-              <ProductRemove
+              <Product
                 title="Product 1"
                 price="1000"
                 description="Lorem ipsum dolor sit amet. Nam quia consectetur ut quis sapiente aut recusandae voluptatem sit voluptas dolorem qui nulla sequi quo possimus fugit. "

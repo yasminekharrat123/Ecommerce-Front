@@ -30,13 +30,16 @@
 }
 
 .modern-button.cart {
-  margin-left: 7px;
+  margin-left: 22px;
   margin-top: -30px;
   display: flexbox;
 }
 
 .modern-button.RemButton {
-  display: flexbox;
+  margin-left: 130px;
+  margin-right: 10px;
+  position: absolute;
+  display: block;
 }
 
 .card > img {
