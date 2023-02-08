@@ -25,3 +25,26 @@
   margin-bottom: 20px;
   background-color: transparent;
 }
+.titre {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #ae2012;
+  text-decoration: none;
+  margin-right: 15px;
+  margin-top: 30px;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.sous-titre {
+  text-align: center;
+  font-size: 0.9em;
+
+  color: #191211;
+  text-decoration: none;
+  margin-right: 15px;
+  margin-top: 15px;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}

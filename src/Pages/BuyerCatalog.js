@@ -2,19 +2,25 @@ import "../BuyerCatalog.css";
 import Footer from "../components/footer/Footer";
 import NavBar from "../components/NavBar/NavBar";
 import Product from "../components/Product/Product";
-
+import ProductRemove from "../components/Product/ProductRemove";
 
 function BuyerCatalog() {
   return (
     <body>
       <div className="bg-color1">
         <NavBar />
+        <h1 className="titre">Découvrez nos produits</h1>
+        <h3 className="sous-titre">
+          Des milliers de vendeurs proposent de nouveaux produits chaque jour !
+          Soyez les premiers à les découvrir.
+        </h3>
 
         <div className="container bg-light rounded  ">
           <div className="row ">
             <div className="col-md-3 card1">
-              <Product
+              <ProductRemove
                 title="Product 1"
+                price="1000"
                 description="Lorem ipsum dolor sit amet. Nam quia consectetur ut quis sapiente aut recusandae voluptatem sit voluptas dolorem qui nulla sequi quo possimus fugit. "
                 image="https://img.freepik.com/free-photo/rehearsal-preparation-groom-s-watch-hand_8353-5808.jpg?w=900&t=st=1674932600~exp=1674933200~hmac=f11b876c96bcb66c745a7fef83f3291b72562fa42be3e13ea8d6c2600e58889c"
               />
@@ -23,6 +29,7 @@ function BuyerCatalog() {
             <div className="col-md-3 card1">
               <Product
                 title="Product 2"
+                price="1000"
                 description="Lorem ipsum dolor sit amet. Nam quia consectetur ut quis sapiente aut recusandae voluptatem sit voluptas dolorem qui nulla sequi quo possimus fugit. "
                 image="https://img.freepik.com/free-photo/rehearsal-preparation-groom-s-watch-hand_8353-5808.jpg?w=900&t=st=1674932600~exp=1674933200~hmac=f11b876c96bcb66c745a7fef83f3291b72562fa42be3e13ea8d6c2600e58889c"
               />
@@ -30,6 +37,7 @@ function BuyerCatalog() {
             <div className="col-md-3 card1">
               <Product
                 title="Product 3"
+                price="1000"
                 description="Lorem ipsum dolor sit amet. Nam quia consectetur ut quis sapiente aut recusandae voluptatem sit voluptas dolorem qui nulla sequi quo possimus fugit. "
                 image="https://img.freepik.com/free-photo/rehearsal-preparation-groom-s-watch-hand_8353-5808.jpg?w=900&t=st=1674932600~exp=1674933200~hmac=f11b876c96bcb66c745a7fef83f3291b72562fa42be3e13ea8d6c2600e58889c"
               />
@@ -37,6 +45,7 @@ function BuyerCatalog() {
             <div className="col-md-3 card1">
               <Product
                 title="Product 1"
+                price="1000"
                 description="Lorem ipsum dolor sit amet. Nam quia consectetur ut quis sapiente aut recusandae voluptatem sit voluptas dolorem qui nulla sequi quo possimus fugit. "
                 image="https://img.freepik.com/free-photo/rehearsal-preparation-groom-s-watch-hand_8353-5808.jpg?w=900&t=st=1674932600~exp=1674933200~hmac=f11b876c96bcb66c745a7fef83f3291b72562fa42be3e13ea8d6c2600e58889c"
               />
@@ -46,6 +55,7 @@ function BuyerCatalog() {
             <div className="col-md-3">
               <Product
                 title="Product 1"
+                price="1000"
                 description="Lorem ipsum dolor sit amet. Nam quia consectetur ut quis sapiente aut recusandae voluptatem sit voluptas dolorem qui nulla sequi quo possimus fugit. "
                 image="https://img.freepik.com/free-photo/rehearsal-preparation-groom-s-watch-hand_8353-5808.jpg?w=900&t=st=1674932600~exp=1674933200~hmac=f11b876c96bcb66c745a7fef83f3291b72562fa42be3e13ea8d6c2600e58889c"
               />

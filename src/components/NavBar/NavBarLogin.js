@@ -11,12 +11,10 @@ export default function NavBar() {
             alt="Logo"
             width="80"
             height="70"
-            class="d-inline-block align-text-top"
+            className="d-inline-block align-text-top"
           />
         </span>
-        <span className="title d-inline-block title" style="{font-size=1.9em}">
-          Aura
-        </span>
+        <span className="title d-inline-block title">Aura</span>
       </div>
     </nav>
   );
