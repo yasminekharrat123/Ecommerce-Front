@@ -1,52 +1,61 @@
-.Products{
-    display: grid;
-    grid-template-columns: 700px;
-    justify-content: center;
+.Products {
+  display: grid;
+  grid-template-columns: 700px;
+  justify-content: center;
 }
 
-.product{
-    width: 700px;
-    height: 250px;
-    display: flex;
-  
-    align-items: center;
-    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
-    border-radius: 25px;
-    margin: 30px;
-    word-wrap: break-word;
-  
+.product {
+  width: 700px;
+  height: 250px;
+  display: flex;
+
+  align-items: center;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  margin: 30px;
+  word-wrap: break-word;
 }
 
-.product img{
-    width: 200px;
-    
+.product img {
+  width: 200px;
 }
 
-.valbttn{
-    text-align: center;
-    margin: 30px;
-    margin-bottom: 100px;
-
+.valbttn {
+  text-align: center;
+  margin: 30px;
+  margin-bottom: 100px;
 }
-.pbttn{
-    border-radius: 25px;
-    width: 250px;
-    height: 50px;
-    font-size: large;
-    color: beige;
-    background-color: #ae2012;
-    border-style: none;
-    text-align: center;
+.pbttn {
+  border-radius: 25px;
+  width: 250px;
+  height: 50px;
+  font-size: large;
+  color: beige;
+  background-color: #ae2012;
+  border-style: none;
+  text-align: center;
 }
 
-.product>div.description{
-    width: 100%;
-    font-size: 15px;
-    max-width: 200px;
+.product > div.description {
+  width: 100%;
+  font-size: 15px;
+  max-width: 200px;
 }
 
 .countHandler input {
-    width: 40px;
-    text-align: center;
-    font-weight: bolder;
-  }
+  width: 40px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.titre {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #09060668;
+  text-decoration: none;
+  margin-right: 15px;
+  margin-top: 30px;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
