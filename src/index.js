@@ -51,6 +51,7 @@ const router = createBrowserRouter([
     path: "/Favourite",
     element: <Favourite />,
   },
+
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
