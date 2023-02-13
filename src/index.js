@@ -4,7 +4,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider, useParams } from "react-router-dom";
 import Login from "./Pages/Login";
 import Buyer from "./Pages/Buyer";
 import Seller from "./Pages/Seller";
@@ -13,6 +13,8 @@ import OrdersPage from "./components/OrdersPage/OrdersPage";
 import Cart from "./components/Cart/Cart";
 import AccDec from "./components/AccDec/AccDec";
 import Favourite from "./components/Favourite/Favourite";
+import Profile from "./Pages/Profile";
+import ProfileEdit from "./components/Profile/ProfileEdit";
 
 const router = createBrowserRouter([
   {
@@ -51,15 +53,21 @@ const router = createBrowserRouter([
     path: "/Favourite",
     element: <Favourite />,
   },
-
+  {
+    path: "/Profile/client",
+    element: <Profile agent="Client"/>,
+  },
+  {
+    path: "/Profile/seller",
+    element: <Profile agent="Seller"/>,
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
-
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
