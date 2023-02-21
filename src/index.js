@@ -4,17 +4,14 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-import { createBrowserRouter, RouterProvider, useParams } from "react-router-dom";
-import Login from "./Pages/Login";
-import Buyer from "./Pages/Buyer";
-import Seller from "./Pages/Seller";
-import BuyerCatalog from "./Pages/BuyerCatalog";
-import OrdersPage from "./components/OrdersPage/OrdersPage";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Login from "./pages/Login";
+import Buyer from "./pages/Buyer";
+import Seller from "./pages/Seller";
 import Cart from "./components/Cart/Cart";
 import AccDec from "./components/AccDec/AccDec";
 import Favourite from "./components/Favourite/Favourite";
-import Profile from "./Pages/Profile";
-import ProfileEdit from "./components/Profile/ProfileEdit";
+import Profile from "./pages/Profile";
 
 const router = createBrowserRouter([
   {
@@ -28,17 +25,8 @@ const router = createBrowserRouter([
   },
 
   {
-    path: "/BuyerCatalog",
-    element: <BuyerCatalog />,
-  },
-
-  {
     path: "/Seller",
-    element: <OrdersPage />,
-  },
-  {
-    path: "/BuyerCatalog",
-    element: <BuyerCatalog />,
+    element: <Seller />,
   },
 
   {
@@ -55,12 +43,12 @@ const router = createBrowserRouter([
   },
   {
     path: "/Profile/client",
-    element: <Profile agent="Client"/>,
+    element: <Profile agent="Client" />,
   },
   {
     path: "/Profile/seller",
-    element: <Profile agent="Seller"/>,
-  }
+    element: <Profile agent="Seller" />,
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

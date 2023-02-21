@@ -4,8 +4,8 @@ function Footer() {
   return (
     <footer className="background">
       <div className="container  ">
-        <p className="edit">Copyright &copy; Aura</p>
         <p className="edit">Contacter nous sur: Aura@customerservice.tn</p>
+        <p className="edit">Copyright &copy; Aura</p>
       </div>
     </footer>
   );

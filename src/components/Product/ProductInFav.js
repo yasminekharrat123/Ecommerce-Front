@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import "../Product/Product.css";
 export default function Product(props) {
-
-
   const remove = () => {
     const element = document.getElementById("remove");
     element.classList.add("delete");
@@ -25,7 +23,7 @@ export default function Product(props) {
         <h5 className="card-title price">{props.price} TND</h5>
         <p className="card-text">{props.description}</p>
         <span>
-          <button onClick={() => remove()} className="modern-button RemButton">
+          <button onClick={() => remove()} className="modern-button ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -40,7 +38,7 @@ export default function Product(props) {
           </button>
         </span>
         <span>
-          <button onClick={() => addNb()} className="modern-button cart">
+          <button onClick={() => addNb()} className="modern-button cart1">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"

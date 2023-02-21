@@ -99,7 +99,7 @@ export default function NavBar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to={"/Profil"}>
+              <Link className="nav-link" to={"/Profile/client"}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="20"

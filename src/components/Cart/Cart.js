@@ -4,6 +4,7 @@ import ProductRemove from "../Product/ProductRemove";
 import "./Cart.css";
 import { Link } from "react-router-dom";
 import { PlusMoins } from "../PlusMoins/PlusMoins";
+import Footer from "../footer/Footer";
 
 export default function Cart() {
   const a = {
@@ -22,58 +23,56 @@ export default function Cart() {
         <NavBar />
         <h1 className="titre">Votre Panier:</h1>
         <div className="row my-4 container">
-            <div className="col-md-12">
-                <div className="card">
-                    <div className="card-body">
-                        <table className="table">
-                            <thead>
-                                <tr>
-                                    <th> </th>
-                                    <th>Image</th>
-                                    <th>Nom</th>
-                                    <th>Prix</th>
-                                    <th>Quantité</th>
-                                    
-                                    
-                                </tr>
-                            </thead>
-                            <tbody>
-                                {
-                                    CartProducts.map(
-                                        item=>(
-                                            <tr>
-                                                 <td></td>
-                                                 <td><img src={item.image}
-                                                    className="fluid rouned"
-                                                    width={60}
-                                                    height={60}
-                                                    alt=""
-                                                 /></td>
-                                                 <td>{item.title}</td>
-                                                 <td>20 TND</td>
-                                                 <td><PlusMoins/></td>
-                                                 
-                                                 
-                                            </tr>
-                                        )
-                                    )
-
-                                }
-                                <tr>
-                                <th colSpan={5} className="text-center">Total:</th>
-                                <td>
-                                    <span className="badge bg-danger rounded-pill">9999$</span>
-                                </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
+          <div className="col-md-12">
+            <div className="card">
+              <div className="card-body">
+                <table className="table">
+                  <thead>
+                    <tr>
+                      <th> </th>
+                      <th>Image</th>
+                      <th>Nom</th>
+                      <th>Prix</th>
+                      <th>Quantité</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {CartProducts.map((item) => (
+                      <tr>
+                        <td></td>
+                        <td>
+                          <img
+                            src={item.image}
+                            className="fluid rouned"
+                            width={60}
+                            height={60}
+                            alt=""
+                          />
+                        </td>
+                        <td>{item.title}</td>
+                        <td>20 TND</td>
+                        <td>
+                          <PlusMoins />
+                        </td>
+                      </tr>
+                    ))}
+                    <tr>
+                      <th colSpan={5} className="text-center">
+                        Total:
+                      </th>
+                      <td>
+                        <span className="badge bg-danger rounded-pill">
+                          9999$
+                        </span>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
         </div>
-        </div>
-        </div>
 
-
-        
         <div className="valbttn">
           <button
             className="pbttn"
@@ -85,12 +84,14 @@ export default function Cart() {
             Passez Commande
           </button>
         </div>
+        <Footer />
       </div>
     );
   else
     return (
       <div>
         Passer une commande <Link to={"/Buyer"}> ici</Link>
+        <Footer />
       </div>
     );
 }

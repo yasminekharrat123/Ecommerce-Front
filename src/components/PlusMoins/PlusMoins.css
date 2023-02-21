@@ -1,25 +1,40 @@
-.Accbttn1{
-    margin:5px;
-    border-radius: 2px;
-    border-style: none;
-    background-color: rgb(0, 206, 0);
-    color:aliceblue;
-    width: 28px;
+.Accbttn1 {
+  margin: 5px;
+  border-radius: 40px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 
+  border-style: none;
+  background-color: #ae2012;
+  color: aliceblue;
+  width: 28px;
+}
+.plusmoins {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 3px;
+  text-align: center;
 }
 
-.Refbttn1{
-    margin:5px;
-    border-radius: 2px;
-    border-style: none;
-    background-color: rgb(206, 0, 0);
-    color:aliceblue;
-    width: 28px;
+.Refbttn1 {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  border-radius: 40px;
+  border-style: none;
+  background-color: #ae2012;
+  color: aliceblue;
+  width: 28px;
 }
 
-.quantitybttn{
-    margin:2px;
-    width: 50px;
-    border-radius: 5px;
-    border-style: groove;
+.quantitybttn {
+  margin: 2px;
+  width: 50px;
+  border-radius: 5px;
+  border-style: groove;
 }

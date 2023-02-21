@@ -1,7 +1,7 @@
-import "../BuyerCatalog.css";
-import Footer from "../components/footer/Footer";
-import NavBar from "../components/NavBar/NavBar";
-import Product from "../components/Product/Product";
+import "../BuyerCatalog/BuyerCatalog.css";
+import Footer from "../footer/Footer";
+import NavBar from "../NavBar/NavBar";
+import Product from "../Product/Product";
 
 function BuyerCatalog() {
   return (

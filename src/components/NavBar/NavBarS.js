@@ -55,7 +55,6 @@ export default function NavBar() {
                   className="bi bi-house house"
                   viewBox="0 0 16 16"
                   margin-left="20px"
-                  
                 >
                   <path
                     fillRule="evenodd"
@@ -67,7 +66,7 @@ export default function NavBar() {
             </li>
           </ul>
           <ul className="navbar-nav navbar-right">
-          <li className="nav-item">
+            <li className="nav-item">
               <Link className="nav-link" to={"/OrdersPage"}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -83,7 +82,7 @@ export default function NavBar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to={"/Profil"}>
+              <Link className="nav-link" to={"/Profile/seller"}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="20"

@@ -1,159 +1,127 @@
-.page_container
-{
-    min-height: 105vh; ;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(
+.page_container {
+  min-height: 105vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
     to top,
     #f7f1ed 0%,
     #f7f1ed 50%,
     #f7f1ed 50%,
     #eed4c5 90%
-    );
-
+  );
 }
 
-.nv
-{
-    font-size: larger;
-    margin-bottom: 20px;
+.nv {
+  font-size: larger;
+  margin-bottom: 20px;
 }
 
-.option
-{
-    margin-left: 10px;
+.option {
+  margin-left: 10px;
 }
-.options
-{
-    margin-top: 10px;
-    display: block;
-    margin-bottom: 20px;
-    padding:10px;
-    padding-top: 0px;
-    width: 200px;
-    border: 2px #ae2012 groove;
-    border-radius: 7px;
-
+.options {
+  margin-top: 10px;
+  display: block;
+  margin-bottom: 20px;
+  padding: 10px;
+  padding-top: 0px;
+  width: 200px;
+  border: 2px #ae2012 groove;
+  border-radius: 7px;
 }
 
-#Ras
-{
-    padding: 5px;
-    position: relative;
-    bottom: 15px;
-    background-color: blanchedalmond;
-    place-content: block-start;
+#Ras {
+  padding: 5px;
+  position: relative;
+  bottom: 15px;
+  background-color: blanchedalmond;
+  place-content: block-start;
 }
 
-
-.login__form
-{
-    color:black;
+.login__form {
+  color: black;
 }
 
-
-.form__group{
-    box-shadow: 0px 5px 5px 5px rgba(77, 74, 74, 0.75);
-    padding: 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 16px;
-    background-color: blanchedalmond;
-    border-radius: 50px;
-    color: #ae2012;
-    margin-bottom: 70px;
+.form__group {
+  box-shadow: 0px 5px 5px 5px rgba(77, 74, 74, 0.75);
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 16px;
+  background-color: #eed4c5;
+  border-radius: 50px;
+  color: #ae2012;
+  margin-bottom: 70px;
 }
-.login__form
-{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.login__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.form__label
-{   
-    margin-left: 15px;
-    align-self: flex-start;
+.form__label {
+  margin-left: 15px;
+  align-self: flex-start;
 }
 .form__field {
-    border-radius: 20px;
-    height:50px;
-    width: 290px;
-    border: none;
-    box-shadow: 0px 2px 0px 0px rgba(77, 74, 74, 0.75);
-    padding: 10px;
-    margin-bottom: 20px;
+  border-radius: 20px;
+  height: 50px;
+  width: 290px;
+  border: none;
+  box-shadow: 0px 2px 0px 0px rgba(77, 74, 74, 0.75);
+  padding: 10px;
+  margin-bottom: 20px;
 }
 
-
-.form__field:focus
-{
-    outline: none;
-    box-shadow: 1px 3px 0px 0px #ae1f12c0;
-    transition: 0.2s;
-    transform: scale(1.02) perspective(1px);
+.form__field:focus {
+  outline: none;
+  box-shadow: 1px 3px 0px 0px #ae1f12c0;
+  transition: 0.2s;
+  transform: scale(1.02) perspective(1px);
 }
-
-
 
 .form__buttons {
-
-    height: 50px;
-    width: 10px;
-    cursor: pointer;
-    border-radius: 10px;
-    font-size: 16px;
-    margin-bottom: 10px;
-    background-color: #ae2012;
-    color: white;
-    border: none;
-    
+  height: 50px;
+  width: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  background-color: #ae2012;
+  color: white;
+  border: none;
 }
 
-
-.form__buttons:hover
-{
-
-    transform: scale(1.02) perspective(1px);
-    transition: 0.2s;
+.form__buttons:hover {
+  transform: scale(1.02) perspective(1px);
+  transition: 0.2s;
 }
 
-
-.option:hover
-{
-    cursor: pointer;
-    font-weight: 500;
-    transition: ease-in-out 0.1s;   
+.option:hover {
+  cursor: pointer;
+  font-weight: 500;
+  transition: ease-in-out 0.1s;
 }
 
-
-
-
-.hyperlink
-{
-    text-decoration: none;
-    color: black;
-    font-size: 16px;
+.hyperlink {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
 }
-.hyperlink:hover
-{
-    color: #ae2012;
-    cursor: pointer;
-    text-decoration: underline;
-    transition: 0.2s;
+.hyperlink:hover {
+  color: #ae2012;
+  cursor: pointer;
+  text-decoration: underline;
+  transition: 0.2s;
 }
 
-input[type='radio']:hover
-{
-    cursor: pointer;
+input[type="radio"]:hover {
+  cursor: pointer;
 }
 
-input[type='radio']
-{
-    accent-color: #ae2012;
+input[type="radio"] {
+  accent-color: #ae2012;
 }
-
-

@@ -35,15 +35,9 @@
   display: flexbox;
 }
 
-.modern-button.RemButton {
-  margin-left: 130px;
-  margin-right: 10px;
-  position: absolute;
-  display: block;
-}
-
-.card > img {
-  height: 50%;
+.modern-button.cart1 {
+  margin-left: 20px;
+  color: black;
 }
 
 .card-title {

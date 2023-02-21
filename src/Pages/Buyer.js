@@ -1,6 +1,5 @@
 import React from "react";
-import NavBar from "../components/NavBar/NavBar";
-import BuyerCatalog from "./BuyerCatalog";
+import BuyerCatalog from "../components/BuyerCatalog/BuyerCatalog";
 
 export default function Buyer() {
   return (

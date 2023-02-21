@@ -1,16 +1,13 @@
 import Footer from "../components/footer/Footer";
-import NavBar from "../components/NavBar/NavBar";
+import NavBarS from "../components/NavBar/NavBarS";
 import EditProfile from "../components/Profile/ProfileEdit";
 
-export default function Profile({agent})
-{
-    return(
-        <div className="back" >
-            <NavBar/>
-            <EditProfile agent={agent}/>
-            <Footer/>
-        </div>
-    );
-    
-
+export default function Profile({ agent }) {
+  return (
+    <div className="back">
+      <NavBarS />
+      <EditProfile agent={agent} />
+      <Footer />
+    </div>
+  );
 }

@@ -1,11 +1,13 @@
 import React from "react";
-import NavBar from "../components/NavBar/NavBar";
-import NavBarS from "../components/NavBar/NavBarS";
+import Footer from "../components/footer/Footer";
+
+import OrdersPage from "../components/OrdersPage/OrdersPage";
 
 export default function Seller() {
   return (
     <div>
-      <NavBarS/>
+      <OrdersPage />
+      <Footer />
     </div>
   );
 }

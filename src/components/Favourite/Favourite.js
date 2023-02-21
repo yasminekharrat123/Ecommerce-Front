@@ -2,13 +2,15 @@ import React, { useState } from "react";
 import NavBar from "../NavBar/NavBar";
 import ProductInFav from "../Product/ProductInFav";
 import { Link } from "react-router-dom";
+import Footer from "../footer/Footer";
 
 export default function Favourite() {
   const a = {
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfUj7REegokAcagfwjWREyFtWu_yPqCpvDLTS_J7Oq&s",
-    title: "ProductInCart",
-    description: "Descreption:ProductInCart",
+    title: "ProductInFavorites",
+    description: "Description:Product In Favorites",
+    price: 100,
   };
 
   const [CartProducts, setCartProducts] = useState([a, a, a]);
@@ -30,12 +32,14 @@ export default function Favourite() {
                     title={u.title}
                     description={u.description}
                     image={u.image}
+                    price={u.price}
                   />
                 </div>
               );
             })
           : null}
       </div>
+      <Footer />
     </div>
   );
 }
