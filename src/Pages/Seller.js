@@ -7,7 +7,6 @@ export default function Seller() {
   return (
     <div>
       <OrdersPage />
-      <Footer />
     </div>
   );
 }
